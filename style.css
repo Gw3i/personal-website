@@ -195,4 +195,10 @@ footer p {
   text-decoration: none;
   color: black;
 }
+.footer-list-items a:hover {
+  color: #c5ff7c;
+  text-shadow: 1px 1px #000000;
+  text-decoration: underline;
+  text-decoration-color: #4d3979;
+}
 /* footer */
