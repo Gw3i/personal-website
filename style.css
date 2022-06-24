@@ -15,7 +15,7 @@ body {
 header {
   display: flex;
   justify-content: space-between;
-  background-color: #655a7c;
+  background-color: #dcdbd9;
   padding: 10px 20px;
 }
 nav ul {
@@ -61,7 +61,7 @@ h1 {
   justify-content: center;
   padding: 20px;
   gap: 20px;
-  background-color:#ebeae9
+  background-color: #ebeae9;
 }
 .info-container {
   width: 400px;
@@ -70,17 +70,20 @@ h1 {
   font-size: 1.2rem;
 }
 /* info-section */
+
+/* form-section */
 form {
   display: flex;
   flex-direction: column;
-
   padding: 20px;
+}
+form h2 {
+  font-size: 1.2rem;
 }
 
 /* form-section */
 
-
-/* form-section */
+/* social-card-section */
 
 .social-card {
   width: 380px;
@@ -109,3 +112,27 @@ form {
   text-decoration: none;
   color: grey;
 }
+
+/* social-card-section */
+
+/* footer */
+footer {
+  background-color: #dcdbd9;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+footer p {
+  margin: 0px;
+}
+
+.footer-list-items {
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+.footer-list-items a {
+  text-decoration: none;
+  color: black;
+}
+/* footer */
