@@ -4,7 +4,7 @@
 
 body {
   margin: 0;
-  padding: 0;
+  padding: 20px;
   font-family: "Roboto", sans-serif;
   font-size: 62, 5%;
 }
@@ -42,4 +42,8 @@ ul {
 .card-text,
 .card-account {
   font-size: 0.9rem;
+}
+.card-account a {
+  text-decoration: none;
+  color: grey;
 }
