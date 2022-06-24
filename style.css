@@ -4,13 +4,15 @@
 
 body {
   margin: 0;
-  padding: 20px;
+  padding: 0px;
   font-family: "Roboto", sans-serif;
   font-size: 62, 5%;
 }
 header {
   display: flex;
   justify-content: space-between;
+  background-color: #655a7c;
+  padding: 10px 20px;
 }
 nav ul{
   display: flex;
