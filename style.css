@@ -35,6 +35,10 @@ nav ul {
   text-decoration: underline;
   text-decoration-color: #4d3979;
 }
+img.logo {
+  width: 50px;
+  height: 50px;
+}
 /* navbar */
 
 /* hero-section */
@@ -65,6 +69,9 @@ h1 {
 .chris {
   width: 200px;
   margin-bottom: 20px;
+}
+code {
+  max-width: 600px;
 }
 /* hero-section */
 
@@ -114,7 +121,7 @@ form h2 {
 .projects-link:hover {
   color: #c5ff7c;
   text-shadow: 1px 1px black;
-  text-decoration-color: ;
+  text-decoration-color: #4d3979;
 }
 
 /* form-section */
