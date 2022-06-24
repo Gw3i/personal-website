@@ -31,7 +31,10 @@ nav ul {
   color: #c5ff7c;
   text-shadow: 1px 1px #000000;
 }
-
+.nav-list-items a:hover {
+  text-decoration: underline;
+  text-decoration-color: #4d3979;
+}
 /* navbar */
 
 /* hero-section */
