@@ -19,3 +19,12 @@ p,
 ul {
   color: #655a7c;
 }
+
+.social-card {
+  width: 380px;
+  height: 160px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px grey;
+}
+
+
