@@ -80,6 +80,10 @@ code {
   text-shadow: 2px 1px #c5ff7c;
   text-decoration: none;
 }
+code strong {
+  text-decoration: underline;
+  text-decoration-color: #c5ff7c;
+}
 .projects-button a:hover {
   text-decoration: underline;
   text-decoration-color: #c5ff7c;
