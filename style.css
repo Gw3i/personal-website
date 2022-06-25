@@ -125,6 +125,23 @@ code strong {
 }
 /* info-section */
 
+
+/* fun-with-css */
+.css-fun {
+  margin: 50px 0;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.fun-container {
+  width: 300px;
+  height: 300px;
+  background-color: darksalmon;
+}
+
+/* fun-with-css */
+
 /* social-card-section */
 .social-card-container {
   padding: 40px 20px;
