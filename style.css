@@ -125,7 +125,6 @@ code strong {
 }
 /* info-section */
 
-
 /* fun-with-css */
 .css-fun {
   margin: 50px 0;
@@ -137,7 +136,67 @@ code strong {
 .fun-container {
   width: 300px;
   height: 300px;
-  background-color: darksalmon;
+  background-color: #c5ff7c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.rectangle1,
+.rectangle2,
+.rectangle3,
+.rectangle4,
+.rectangle5,
+.rectangle6,
+.rectangle7 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: rotate(10deg);
+}
+.rectangle1:hover,
+.rectangle2:hover,
+.rectangle3:hover,
+.rectangle4:hover,
+.rectangle5:hover,
+.rectangle6:hover,
+.rectangle7:hover {
+  transform: rotate(50deg);
+  transition: all 0.5s ease-out;
+}
+.rectangle1 {
+  width: 220px;
+  height: 220px;
+  background-color: #c5f9d7;
+}
+.rectangle2 {
+  width: 150px;
+  height: 150px;
+  background-color: #f1f29a;
+}
+.rectangle3 {
+  width: 100px;
+  height: 100px;
+  background-color: #f27a7d;
+}
+.rectangle4 {
+  width: 60px;
+  height: 60px;
+  background-color: #a18dce;
+}
+.rectangle5 {
+  width: 40px;
+  height: 40px;
+  background-color: #527ada; 3e3b92
+}
+.rectangle6 {
+  width: 20px;
+  height: 20px;
+  background-color: #535196; 
+}
+.rectangle7 {
+  width: 10px;
+  height: 10px;
+  background-color: #2e2b85; 
 }
 
 /* fun-with-css */
