@@ -29,8 +29,7 @@ nav ul {
 }
 .nav-list-items a {
   text-decoration: none;
-  color: #c5ff7c;
-  text-shadow: 1px 1px #000000;
+  color: #000;
 }
 .nav-list-items a:hover {
   text-decoration: underline;
@@ -92,7 +91,8 @@ code strong {
 
 /* info-section */
 .info {
-  display: column;
+  display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
   padding: 20px;
@@ -116,8 +116,20 @@ code strong {
   box-shadow: 3px 3px black;
   transition: 0.1s ease-in;
 }
+.info-container ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
 .info-container li {
   list-style-type: none;
+  border: 2px solid black;
+  padding: 7px;
+  border-radius: 2px;
+}
+.info-container li:hover {
+  background-color: #c5ff7c;
+  transition: 0.1s ease-in;
 }
 
 /* info-section */
