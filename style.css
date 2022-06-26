@@ -170,7 +170,7 @@ code strong {
 .rectangle6:hover,
 .rectangle7:hover {
   transform: rotate(50deg);
-  transition: all 0.5s ease-out;
+  transition: all 0.5s easec;
 }
 .rectangle1 {
   width: 220px;
