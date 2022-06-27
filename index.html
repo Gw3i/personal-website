@@ -17,37 +17,31 @@
   </head>
   <body>
     <!-- Navbar -->
-    <header>
-      <img class="logo" src="/baguette.svg" alt="logo" />
-      <nav>
-        <ul>
-          <li class="nav-list-items"><a href="/aboutMe.html">About Me</a></li>
-          <li class="nav-list-items"><a href="/projects.html">Projects</a></li>
-          <li class="nav-list-items"><a href="/contact.html">Contact</a></li>
+    <header class="header">
+      <img class="logo" src="./images/baguette.svg" alt="logo" />
+      <nav class="header__nav">
+        <ul class="header__nav__list">
+          <li class="header__nav__list__items"><a href="/aboutMe.html" class="header__nav__list__items__anchor">About Me</a></li>
+          <li class="header__nav__list__items"><a href="/projects.html" class="header__nav__list__items__anchor">Projects</a></li>
+          <li class="header__nav__list__items"><a href="/contact.html" class="header__nav__list__items__anchor">Contact</a></li>
         </ul>
       </nav>
     </header>
     <!-- END Navbar -->
     <!-- Hero-section -->
-    <main>
-      <h1>Vlady = Web Deleloper</h1>
+    <main class="main">
+      <h1 class="main__headline">Vlady = Web Deleloper</h1>
       <article>
         <section class="hero">
-          <h2 class="hero-text"><code>Creating solutions out of air</code></h2>
-          <img class="chris"
+          <h2 class="hero__text"><code>Creating solutions out of air</code></h2>
+          <img class="hero__img"
             src="https://c.tenor.com/QJg3wfXCL5AAAAAC/surprise-chris-pratt.gif"
             alt="shocked chris pratt"
           />
-          <!-- <img class="vlady"
-            src="https://avatars.githubusercontent.com/u/101993818?v=4"
-            alt="vlady"
-          /> -->
-          <code>
-            Hey, I'm Vlady! Currently I'm diving into the Tech World, becomming a Full Stack Web Developer and learning <strong>HTML</strong>, <strong>CSS</strong>, <strong>Javascript</strong>, <strong>Pair Programming</strong>, <strong>Scrum</strong> and many more...
-          </code>
-          <p class="projects-button">
-            <a href="/projects.html">my projects <span>-></span></a>
-          </p>
+          <span class="code__text">
+            Hey, I'm Vlady! Currently I'm diving into the Tech World, becomming a Full Stack Web Developer and learning <strong class="code__text__highlight">HTML</strong>, <strong class="code__text__highlight">CSS</strong>, <strong class="code__text__highlight">Javascript</strong>, <strong class="code__text__highlight">Pair Programming</strong>, <strong class="code__text__highlight">Scrum</strong> and many more...
+          </span>
+            <a href="/projects.html" class="hero__btn">my projects <span>-></span></a>
         </section>
       </article>
       <article class="info">
@@ -72,13 +66,13 @@
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
         </div>
         <div class="about-img">
-        <img src="/charlesdeluvio-K4mSJ7kc0As-unsplash.jpg" alt="cute dog">
+        <img src="/images/charlesdeluvio-K4mSJ7kc0As-unsplash.jpg" alt="cute dog">
         <section class="about-icons">
           <ul>
-            <li><code><img src="/baby-carriage.svg" alt="baby-carriage icon">26</code></li>
-            <li><code><img src="/map-marker.svg" alt="location icon">Hamburg</code></li>
-            <li><code><img src="/food-apple.svg" alt="food-icon">Ramen, Fried noodles, Poke Bowl</code></li>
-            <li><code><img src="/basketball.svg" alt="basketball-icon">Surfing, Snowboarding, Sport, Guitar</code></li>
+            <li><code><img src="/images/baby-carriage.svg" alt="baby-carriage icon">26</code></li>
+            <li><code><img src="/images/map-marker.svg" alt="location icon">Hamburg</code></li>
+            <li><code><img src="/images/food-apple.svg" alt="food-icon">Ramen, Fried noodles, Poke Bowl</code></li>
+            <li><code><img src="/images/basketball.svg" alt="basketball-icon">Surfing, Snowboarding, Sport, Guitar</code></li>
           </ul>
           <div class="about-btn">
           <a href="#">Contact me</a>
@@ -108,7 +102,7 @@
       <!-- Social-card-section -->
       <section class="social-card-container">
       <section class="social-card">
-          <img src="/Github-img.png" alt="Github" />
+          <img src="/images/Github-img.png" alt="Github" />
         </div>
         <div class="card-text-container">
           <div class="text-container">
@@ -126,14 +120,14 @@
             <a href="https://github.com/Gw3i"
               ><img
                 class="card-arrow-icon"
-                src="/arrow-right-circle.svg"
+                src="./images/arrow-right-circle.svg"
                 alt="arrow icon"
             /></a>
           </div>
         </div>
       </section>
       <section class="social-card">
-        <img src="/Twitter.svg" alt="Twitter" />
+        <img src="/images/Twitter.svg" alt="Twitter" />
       </div>
       <div class="card-text-container">
         <div class="text-container">
@@ -151,13 +145,13 @@
           <a href="https://github.com/Gw3i"
             ><img
               class="card-arrow-icon"
-              src="/arrow-right-circle.svg"
+              src="./images/arrow-right-circle.svg"
               alt="arrow icon"
           /></a>
         </div>
       </div>
     </section><section class="social-card">
-      <img src="/Linkedin.svg" alt="Github" />
+      <img src="/images/Linkedin.svg" alt="Github" />
     </div>
     <div class="card-text-container">
       <div class="text-container">
@@ -175,13 +169,13 @@
         <a href="https://github.com/Gw3i"
           ><img
             class="card-arrow-icon"
-            src="/arrow-right-circle.svg"
+            src="./images/arrow-right-circle.svg"
             alt="arrow icon"
         /></a>
       </div>
     </div>
   </section><section class="social-card">
-    <img src="/Github-img.png" alt="Github" />
+    <img src="/images/Github-img.png" alt="Github" />
   </div>
   <div class="card-text-container">
     <div class="text-container">
@@ -199,7 +193,7 @@
       <a href="https://github.com/Gw3i"
         ><img
           class="card-arrow-icon"
-          src="/arrow-right-circle.svg"
+          src="./images/arrow-right-circle.svg"
           alt="arrow icon"
       /></a>
     </div>

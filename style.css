@@ -1,45 +1,5 @@
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  padding: 0px;
-  font-family: "Roboto", sans-serif;
-  font-size: 62, 5%;
-  background-color: #f6f5f2;
-}
-
-/* navbar */
-
-header {
-  display: flex;
-  justify-content: space-between;
-  padding: 10px 20px;
-  border-bottom: solid 2px;
-}
-nav ul {
-  display: flex;
-  gap: 20px;
-  font-weight: bold;
-  font-size: 1.2rem;
-}
-.nav-list-items {
-  list-style-type: none;
-}
-.nav-list-items a {
-  text-decoration: none;
-  color: #000;
-}
-.nav-list-items a:hover {
-  text-decoration: underline;
-  text-decoration-color: #c5ff7c;
-}
-img.logo {
-  width: 50px;
-  height: 50px;
-}
-/* navbar */
+@import "./base.css";
+@import "./components/header.css";
 
 /* hero-section */
 .hero {
@@ -49,16 +9,16 @@ img.logo {
   text-align: center;
   padding: 0 50px 50px 50px;
 }
-h1 {
+.main__headline {
   font-size: 4rem;
-  margin: 20px;
+  margin: 40px 0 0 0;
   font-family: "Playfair Display", serif;
   font-weight: 700;
   color: #c5ff7c;
   text-shadow: 2px 1px #000000;
   text-align: center;
 }
-.hero-text {
+.hero__text {
   font-size: 1.3rem;
   margin-bottom: 20px;
   color: black;
@@ -67,24 +27,25 @@ h1 {
   text-underline-offset: 5px;
   text-decoration-thickness: 3px;
 }
-.chris {
+.hero__img {
   width: 200px;
   margin-bottom: 20px;
 }
-code {
+.code__text {
   max-width: 600px;
 }
-.projects-button a {
+.code__text__highlight {
+  text-decoration: underline;
+  text-decoration-color: #c5ff7c;
+}
+.hero__btn {
   color: #000000;
   font-size: 1.2rem;
   text-shadow: 2px 1px #c5ff7c;
   text-decoration: none;
+  margin-top: 20px;
 }
-code strong {
-  text-decoration: underline;
-  text-decoration-color: #c5ff7c;
-}
-.projects-button a:hover {
+.hero__btn:hover {
   text-decoration: underline;
   text-decoration-color: #c5ff7c;
 }
