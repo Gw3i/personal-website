@@ -164,6 +164,7 @@ code strong {
 .about-img img {
   width: 400px;
   height: auto;
+  border-radius: 4px;
 }
 .about-img ul {
   padding: 0;
@@ -182,13 +183,16 @@ code strong {
   display: flex;
   justify-content: center;
 }
-.about-btn button {
+.about-btn a {
   padding: 10px 20px;
+  margin-bottom: 20px;
   border: 2px solid black;
   border-radius: 2px;
   font-weight: bold;
+  text-decoration: none;
+  color: black;
 }
-.about-btn button:hover {
+.about-btn :hover {
   box-shadow: 3px 3px black;
   background-color: #c5ff7c;
   transition: 0.1s ease-in;
