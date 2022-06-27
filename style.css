@@ -77,7 +77,7 @@
   flex-direction: column;
 }
 .about__img {
-  width: 400px;
+  max-width: 100%;
   height: auto;
   border-radius: 4px;
 }
