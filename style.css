@@ -204,6 +204,7 @@ code strong {
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 .rectangle1,
 .rectangle2,
@@ -269,7 +270,6 @@ code strong {
 .social-card-container {
   padding: 40px 20px;
   margin: 50px 0;
-  background-color: #dcdbd9;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -324,11 +324,11 @@ code strong {
 
 /* footer */
 footer {
-  background-color: #dcdbd9;
   padding: 20px;
   display: flex;
   justify-content: space-between;
   align-items: baseline;
+  border-top: 2px solid black;
 }
 footer p {
   margin: 0px;
