@@ -278,13 +278,16 @@ code strong {
 .social-card {
   width: 380px;
   height: 160px;
-  border-radius: 10px;
-  box-shadow: 3px 3px black;
+  border-radius: 3px;
   padding: 12px;
   display: flex;
   gap: 20px;
   background-color: white;
   border: 2px solid #c5ff7c;
+}
+.social-card:hover {
+  box-shadow: 3px 3px black;
+  transition: 0.1s ease-in;
 }
 .card-text-container {
   display: flex;
