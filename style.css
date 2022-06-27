@@ -178,12 +178,14 @@ code strong {
   justify-content: center;
 }
 .about-btn button {
-  padding: 10px;
-  border: 2px solid #c5ff7c;
+  padding: 10px 20px;
+  border: 2px solid black;
   border-radius: 2px;
+  font-weight: bold;
 }
 .about-btn button:hover {
   box-shadow: 3px 3px black;
+  background-color: #c5ff7c;
   transition: 0.1s ease-in;
 }
 /* about-section */
