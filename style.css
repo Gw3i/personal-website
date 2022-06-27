@@ -1,62 +1,12 @@
 @import "./base.css";
 @import "./components/header.css";
+@import "./components/hero.css";
 @import "./components/info.css";
 @import "./components/about.css";
 @import "./components/fun.css";
 @import "./components/social-cards.css";
 @import "./components/footer.css";
-
-
-
-/* hero-section */
-.hero {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  padding: 0 50px 50px 50px;
-}
-.main__headline {
-  font-size: 4rem;
-  margin: 40px 0 0 0;
-  font-family: "Playfair Display", serif;
-  font-weight: 700;
-  color: var(--third-color);
-  text-shadow: 2px 1px black;
-  text-align: center;
-}
-.hero__text {
-  font-size: 1.3rem;
-  margin-bottom: 20px;
-  color: black;
-  text-decoration: underline;
-  text-decoration-color: var(--third-color);
-  text-underline-offset: 5px;
-  text-decoration-thickness: 3px;
-}
-.hero__img {
-  width: 200px;
-  margin-bottom: 20px;
-}
-.code__text {
-  max-width: 600px;
-}
-.code__text__highlight {
-  text-decoration: underline;
-  text-decoration-color: var(--third-color);
-}
-.hero__btn {
-  color: #000000;
-  font-size: 1.2rem;
-  text-shadow: 2px 1px var(--third-color);
-  text-decoration: none;
-  margin-top: 20px;
-}
-.hero__btn:hover {
-  text-decoration: underline;
-  text-decoration-color: var(--third-color);
-}
-/* hero-section */
+@import "./components/utility.css";
 
 /* info-section */
 .info {
@@ -80,10 +30,6 @@
   border: 3px solid var(--third-color);
   padding: 10px;
   border-radius: 2px;
-}
-.info__container:hover {
-  box-shadow: 3px 3px black;
-  transition: 0.1s ease-in;
 }
 .info__container__list {
   display: flex;
@@ -115,44 +61,44 @@
   box-shadow: 3px 3px black;
   transition: 0.1s ease-in;
 }
-.about-text {
+.about__text {
   max-width: 400px;
   padding: 10px;
 }
-.about-text h2 {
+.about__text__headline {
   font-family: "Playfair Display", serif;
   font-size: 2rem;
   text-decoration: underline;
   text-decoration-color: var(--third-color);
 }
-.about-img {
+.about__img__container {
   padding: 10px;
   display: flex;
   flex-direction: column;
 }
-.about-img img {
+.about__img {
   width: 400px;
   height: auto;
   border-radius: 4px;
 }
-.about-img ul {
+.about__icons__list {
   padding: 0;
 }
-.about-img li {
+.about__icons__list__items {
   list-style-type: none;
   display: flex;
   align-content: center;
 }
-.about-img li img {
+.about__icons__list__items__icon {
   max-width: 20px;
   margin-right: 2px;
 }
-.about-btn {
+.about__btn {
   margin-top: 40px;
   display: flex;
   justify-content: center;
 }
-.about-btn a {
+.about__btn__anchor {
   padding: 10px 20px;
   margin-bottom: 20px;
   border: 2px solid black;
@@ -161,7 +107,7 @@
   text-decoration: none;
   color: black;
 }
-.about-btn :hover {
+.about__btn__anchor:hover {
   box-shadow: 3px 3px black;
   background-color: var(--third-color);
   transition: 0.1s ease-in;
