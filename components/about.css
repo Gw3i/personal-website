@@ -1,0 +1,63 @@
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin: 50px;
+  }
+  .about:hover {
+    box-shadow: 3px 3px black;
+    transition: 0.1s ease-in;
+  }
+  .about__text {
+    max-width: 400px;
+    padding: 10px;
+  }
+  .about__text__headline {
+    font-family: "Playfair Display", serif;
+    font-size: 2rem;
+    text-decoration: underline;
+    text-decoration-color: var(--third-color);
+  }
+  .about__img__container {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+  }
+  .about__img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+  .about__icons__list {
+    padding: 0;
+  }
+  .about__icons__list__items {
+    list-style-type: none;
+    display: flex;
+    align-content: center;
+  }
+  .about__icons__list__items__icon {
+    max-width: 20px;
+    margin-right: 2px;
+  }
+  .about__btn {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+  }
+  .about__btn__anchor {
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border: 2px solid black;
+    border-radius: 2px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+  }
+  .about__btn__anchor:hover {
+    box-shadow: 3px 3px black;
+    background-color: var(--third-color);
+    transition: 0.1s ease-in;
+  }

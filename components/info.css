@@ -1,0 +1,36 @@
+.info {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+    background-color: var(--fourth-color);
+  }
+  .info__headline {
+    font-family: "Playfair Display", serif;
+    font-size: 2rem;
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: var(--third-color);
+    text-align: center;
+  }
+  .info__container {
+    padding: 10px;
+  }
+  .info__container__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .info__container__list__items {
+    list-style-type: none;
+    border: 2px solid black;
+    padding: 7px;
+    border-radius: 2px;
+  }
+  .info__container__list__items:hover {
+    background-color: var(--third-color);
+    transition: 0.1s ease-in;
+  }
+  
