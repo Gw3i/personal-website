@@ -8,18 +8,14 @@
 @import "./components/footer.css";
 @import "./components/utility.css";
 
-
-
-
-
 /* social-card-section */
-.social-card-container {
+.social-card__container {
   padding: 40px 20px;
-  margin: 50px 0;
+  margin: 10px 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  gap: 20px;
+  gap: 10px;
   background-color: var(--fourth-color);
 }
 .social-card {
@@ -31,33 +27,33 @@
   gap: 20px;
   background-color: var(--fourth-color);
 }
-.card-text-container {
+.social-card__text__container {
   display: flex;
 }
-.text-container {
+.social-card__text__container__para {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-.card-arrow-container {
+.social-card__arrow__container {
   align-self: flex-end;
 }
-.card-arrow-container a {
+.social-card__arrow__container__link {
   display: flex;
 }
-.card-title {
+.social-card__title {
   font-size: 1.2rem;
   margin: 0;
 }
 
-.card-text,
-.card-account {
+.social-card__text,
+.social-card__account {
   font-size: 0.9rem;
 }
-.card-account {
+.social-card__account {
   margin: 0;
 }
-.card-account a {
+.social-card__account__link {
   text-decoration: none;
   color: grey;
 }
