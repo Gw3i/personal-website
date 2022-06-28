@@ -1,0 +1,27 @@
+/* footer */
+.footer {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    border-top: 2px solid black;
+  }
+  .footer__contact__text {
+    margin: 0px;
+  }
+  
+  .footer__list__items {
+    list-style-type: none;
+    margin-bottom: 10px;
+  }
+  .footer__list__items__links {
+    text-decoration: none;
+    color: black;
+  }
+  .footer__list__items__links:hover {
+    color: var(--third-color);
+    text-shadow: 1px 1px black;
+    text-decoration: underline;
+    text-decoration-color: black;
+  }
+  /* footer */

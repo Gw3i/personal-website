@@ -7,32 +7,3 @@
 @import "./components/social-cards.css";
 @import "./components/footer.css";
 @import "./components/utility.css";
-
-
-/* footer */
-footer {
-  padding: 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  border-top: 2px solid black;
-}
-footer p {
-  margin: 0px;
-}
-
-.footer-list-items {
-  list-style-type: none;
-  margin-bottom: 10px;
-}
-.footer-list-items a {
-  text-decoration: none;
-  color: black;
-}
-.footer-list-items a:hover {
-  color: var(--third-color);
-  text-shadow: 1px 1px black;
-  text-decoration: underline;
-  text-decoration-color: black;
-}
-/* footer */
